@@ -1,35 +1,85 @@
-# Retail Store Optimization: Optimizing Retail Promotions
+# **Optimizing Retail Promotions & Product Mix**
 
-## Project Overview
-This repository contains the analysis and report for a retail optimization project aimed at enhancing promotional strategies for a multi-city retail chain. The project evaluates the effectiveness of promotions, identifies profitable products and categories across seasons, assesses customer responses, and analyzes revenue drivers by store type and payment method.
+An interactive Streamlit dashboard for analyzing, visualizing, and optimizing retail promotions, product mix, customer behavior, and store performance. This project helps retail businesses identify the most effective promotions, profitable products, and seasonal demand trends — enabling data-driven decision-making.
 
-## Business Problem
-The retail chain operates various store formats (Warehouse Club, Specialty Store, Department Store, Pharmacy) and runs promotions and discounts. However, uncertainties exist regarding:
-- Which promotions drive sales effectively.
-- The most profitable products/categories in each season.
-- Customer category responses (e.g., Young Adults, Homemakers, Professionals) to promotions.
-- Store types and payment methods that generate higher revenue.
+🚀 Features
 
-## Objectives
-Management seeks to:
-- Boost seasonal sales while minimizing expenditure on ineffective promotions.
-- Customize product offerings by city and season.
-- Enhance store type performance by aligning with customer demand.
+KPI Dashboard – Track yearly sales, profits, margins, and top promotions.
 
-## Key Findings
-- **Promotion Effectiveness**: Discounts on Selected Items yield the highest uplift (up to 5.15%) for Professionals in Warehouse Clubs and Pharmacies. BOGO promotions perform well (approximately 4%) for Teenagers in Convenience Stores.
-- **Product and Seasonal Trends**: Toothpaste is the top performer across seasons with consistent profit margins (~1.30M). Groceries dominate sales (~27M per season), with seasonal highlights like Ice Cream in Summer and Oranges in Winter.
-- **Customer Responses**: Professionals show high responsiveness to discounts; Teenagers prefer BOGO. Moderate uplifts observed for Homemakers and Senior Citizens.
-- **Store and Payment Analysis**: Revenue is balanced across store types and payment methods (e.g., Cash, Credit Card), each contributing uniformly (~80 units on a normalized scale).
+Promotion Uplift Analysis – Measure uplift across customer categories and store types.
 
-## Recommendations
-- Prioritize targeted promotions: Discounts for Professionals and BOGO for Teenagers to avoid low-impact campaigns.
-- Tailor inventories seasonally and by city, emphasizing Groceries and high-margin items.
-- Align store formats with customer segments (e.g., bulk items in Warehouse Clubs for Professionals) and promote mobile payments for convenience.
-- Projected impact: 3-5% increase in seasonal sales through optimized resource allocation.
+Product Profitability by Season – Identify high-performing products in each season.
 
-## Data and Methodology
-- Data sourced from a PostgreSQL retail transaction dataset.
-- Analysis includes uplift calculations relative to non-promotion baselines; profit margins exclude external costs.
+Category Heatmap – Visualize profit distribution across product categories.
 
-For further details, refer to the full report (`Retail optimization report.pdf`) in this repository or contact the analytics team.
+Customer Response – Compare how different customer segments respond to promotions.
+
+Store & Payment Method Analysis – Assess profitability by store type and payment channel.
+
+Actionable Recommendations – Suggested strategies for promotions, products, and store planning.
+
+📷 Screenshots
+KPI Dashboard	Promotion Uplift	Product Seasonality
+
+<img width="1024" height="882" alt="image" src="https://github.com/user-attachments/assets/4bd82ae5-b20f-4d84-9baf-15021a1038d9" />
+
+
+⚙️ Installation
+
+Clone the repository and install dependencies:
+
+git clone https://github.com/harshitkharka/retail-promotions-streamlit.git
+cd retail-promotions-streamlit
+pip install -r requirements.txt
+
+▶️ Usage
+
+Run the Streamlit app:
+
+streamlit run Retailoptimizationstreamlit.py
+
+
+Then open the provided local URL in your browser to explore the dashboard.
+
+📂 Project Structure
+├── Retailoptimizationstreamlit.py   # Main Streamlit app  
+├── Optimizing Retail Promotions.ipynb # Notebook for data exploration  
+├── retail_promo.csv                 # Sample dataset (not included here if private)  
+├── requirements.txt                 # Dependencies  
+├── images/                          # Screenshots for README  
+└── README.md                        # Project documentation  
+
+📈 Key Insights
+
+Targeted promotions outperform blanket campaigns (e.g., discounts for Professionals yield +5.15% uplift).
+
+BOGO works best for teenagers in Convenience Stores (~+4% uplift).
+
+Toothpaste consistently generates high profits (~$4.3M) across all seasons.
+
+Seasonal products drive demand (e.g., Ice Cream in Summer, Oranges in Winter).
+
+Profits are evenly distributed across store types & payment methods, meaning optimization should focus on promotions and products.
+
+📊 Tech Stack
+
+Python (Pandas, NumPy)
+
+Streamlit (interactive UI)
+
+Plotly & Matplotlib (visualizations)
+
+Seaborn (statistical charts)
+
+👨‍💻 Author
+
+Harshit Kharka
+📍 New Delhi, India
+📧 harshitkharka2025@gmail.com
+
+🔗 LinkedIn
+ | GitHub
+
+📜 License
+
+This project is licensed under the MIT License – feel free to use and modify.
