@@ -21,7 +21,8 @@ Actionable Recommendations – Suggested strategies for promotions, products, an
 📷 Screenshots
 KPI Dashboard	Promotion Uplift	Product Seasonality
 
-<img width="1024" height="882" alt="image" src="https://github.com/user-attachments/assets/4bd82ae5-b20f-4d84-9baf-15021a1038d9" />
+<img width="944" height="712" alt="image" src="https://github.com/user-attachments/assets/3e75d84c-58d0-49fa-8dce-d5df9b599474" />
+
 
 
 ⚙️ Installation
@@ -71,15 +72,11 @@ Plotly & Matplotlib (visualizations)
 
 Seaborn (statistical charts)
 
-👨‍💻 Author
+👨‍💻 Created by
 
 Harshit Kharka
 📍 New Delhi, India
 📧 harshitkharka2025@gmail.com
 
-🔗 LinkedIn
- | GitHub
-
-📜 License
-
-This project is licensed under the MIT License – feel free to use and modify.
+🔗 www.linkedin.com/in/harshitkharka2025
+ | https://github.com/Harshitkharka/Retail-store-optimization
