@@ -18,9 +18,6 @@ Store & Payment Method Analysis – Assess profitability by store type and payme
 
 Actionable Recommendations – Suggested strategies for promotions, products, and store planning.
 
-📷 Screenshots
-KPI Dashboard	Promotion Uplift	Product Seasonality
-
 <img width="944" height="712" alt="image" src="https://github.com/user-attachments/assets/3e75d84c-58d0-49fa-8dce-d5df9b599474" />
 
 
